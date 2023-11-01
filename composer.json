@@ -2,7 +2,7 @@
     "name": "vseager/magento2-head-additional-before",
     "description": "Allows you to place layout blocks in the <head> tag before other scripts",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "vseager",
