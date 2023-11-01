@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Framework\View\Result\Page" type="Vseager\HeadAdditionalBefore\Framework\View\Result\Page" />
+    <type name="Magento\Framework\View\Result\Page">
+        <arguments>
+            <argument name="template" xsi:type="string">Vseager_HeadAdditionalBefore::root.phtml</argument>
+        </arguments>
+    </type>
+</config>

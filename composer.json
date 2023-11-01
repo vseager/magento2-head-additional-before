@@ -1,0 +1,27 @@
+{
+    "name": "vseager/magento2-head-additional-before",
+    "description": "Allows you to place layout blocks in the <head> tag before other scripts",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "vseager",
+            "email": "vseager@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "magento/product-community-edition": ">=2.4.6"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+          "Vseager\\SnowdogMenu\\": ""
+        }
+    }
+}
